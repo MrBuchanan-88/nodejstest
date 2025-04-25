@@ -5,7 +5,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   res.statusCode = 200; // Success
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, World!\n');
+  res.end('NodeJS server test success!\n');
 });
 
 // Listen on port 3000
